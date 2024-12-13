@@ -9,10 +9,399 @@
     <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/animations.css" />
+    <!--Фавикон-->
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+<link rel="alternate icon" href="images/favicon.ico">
+<!--Иконки для смартфонов-->
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
   </head>
+  
   <body class="page">
-    <header class="header"></header>
-    <main></main>
+    <header class="header header_section">
+      <h1 class="header__heading">&lt;/html&gt;</h1>
+      <p class="header__text">закрывающий тег</p>
+    </header>
+    
+    <main class="main">
+
+      <ul class="main__card-list">
+        <li class="card">
+          <article class="article">
+            <header class="article__header">
+              <h2 class="article__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
+            </header>
+            <figure class="article__image">
+              <span class="article__image-label" aria-hidden="true">&lt;/HTML&gt;</span>
+              <img class="image" 
+              src="./images/bus.png" 
+              alt="Автодом в лесу, ночью под луной">
+               </figure>
+            <div class="article__content">
+              <p class="article__text">Это было самое начало пути. На этом этапе важно было проникнуться основами и настроиться на учёбу. И, возможно, подумать, как новые знания могут повлиять на ваше будущее.</p>
+              <p class="article__text">Вижу цель — не вижу препятствий.</p>
+            </div>
+
+            <footer class="article__footer">
+
+               <!-- Кнопка Like -->
+      <button class="card__like-button" aria-label="Поставить лайк" type="button">
+        <svg class="like-icon" 
+        xmlns="http://www.w3.org/2000/svg" 
+        width="27" 
+        height="24" 
+        fill="none">
+        <path fill="#000" 
+        d="M6 0H3v3h3V0ZM9 0H6v3h3V0ZM3 3H0v3h3V3ZM3 6H0v3h3V6ZM3 9H0v3h3V9ZM12 0H9v3h3V0ZM6 12H3v3h3v-3ZM9 15H6v3h3v-3ZM12 18H9v3h3v-3ZM21 0h3v3h-3V0ZM18 0h3v3h-3V0ZM24 3h3v3h-3V3ZM24 6h3v3h-3V6ZM24 9h3v3h-3V9ZM15 0h3v3h-3V0ZM21 12h3v3h-3v-3ZM18 15h3v3h-3v-3ZM15 18h3v3h-3v-3ZM15 3h-3v3h3V3ZM15 21h-3v3h3v-3Z"/>
+      </svg>
+      </button>
+      <!-- Кнопка  -->
+      <button class="button card__icon-button" type="button">
+        <span class="button__text">Like</span>
+      </button>
+            </footer>
+          </article>
+        </li>
+
+        <li class="card">
+          <article class="article">
+            <header class="article__header">
+              <h2 class="article__title">1 спринт: Я — чистый лист</h2>
+            </header>
+            <figure class="article__image">
+              <span class="article__image-label" aria-hidden="true">&lt;/EMPTY&gt;</span>
+              <img class="image filter_brightness" 
+              src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDdwNzA1ajBncTNsbG1zYnowZHdhODA2ZjA5NTg2YnozdWV4cWtpOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kQKYYTZK3xSYAYVYoD/giphy.webp"
+              alt="Кролик готов к работе">
+               </figure>
+            <div class="article__content">
+              <p class="article__text">На первых этапах мы работали со страхами и сомнениями, которые часто испытывают новички. Один из них — страх перед чистым листом. 
+                Это, конечно же, намного сложнее, чем боязнь куска бумаги. 
+                Часто за этим ощущением скрываются более глубокие вопросы: с чего начать? 
+                а вдруг будет слишком сложно? 
+                что, если я не справлюсь?</p>
+              <p class="article__text">Эти мысли порой казались непроходимыми препятствиями, 
+                но я постепенно поняла, что каждый шаг вперед — это шаг к преодолению страхов 
+                и сомнений. Пусть пока еще не все ясно, 
+                но с каждым усилием я учусь быть смелее и открываю новые возможности для себя.</p>
+            </div>
+
+            <footer class="article__footer">
+
+               <!-- Кнопка Like -->
+      <button class="card__like-button" aria-label="Поставить лайк" type="button">
+        <svg class="like-icon" 
+        xmlns="http://www.w3.org/2000/svg" 
+        width="27" 
+        height="24" 
+        fill="none">
+        <path fill="#000" 
+        d="M6 0H3v3h3V0ZM9 0H6v3h3V0ZM3 3H0v3h3V3ZM3 6H0v3h3V6ZM3 9H0v3h3V9ZM12 0H9v3h3V0ZM6 12H3v3h3v-3ZM9 15H6v3h3v-3ZM12 18H9v3h3v-3ZM21 0h3v3h-3V0ZM18 0h3v3h-3V0ZM24 3h3v3h-3V3ZM24 6h3v3h-3V6ZM24 9h3v3h-3V9ZM15 0h3v3h-3V0ZM21 12h3v3h-3v-3ZM18 15h3v3h-3v-3ZM15 18h3v3h-3v-3ZM15 3h-3v3h3V3ZM15 21h-3v3h3v-3Z"/>
+      </svg>
+      </button>
+      <!-- Кнопка -->
+      <button class="button card__icon-button" type="button">
+        <span class="button__text">Like</span>
+      </button>
+            </footer>
+          </article>
+        </li>
+
+        <li class="card">
+          <article class="article">
+            <header class="article__header">
+              <h2 class="article__title">1 спринт: А если не получится?</h2>
+            </header>
+            <figure class="article__image">
+              <span class="article__image-label" aria-hidden="true">&lt;/first level&gt;</span>
+              <img class="image filter-grayscale" 
+              src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjJsazNiNTZsMjFpaWExZDFpdHg0aXZrMjdndHI5dTlkM3hzdXZoMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/y65VoOlimZaus/200.webp" 
+              alt="Два рейнджера стоят посреди пустыни и сомневаются">
+               </figure>
+            <div class="article__content">
+              <p class="article__text">Первый проект — позади! 
+                Но это всё ещё самое начало пути. 
+                Радость могла быстро померкнуть и смениться ожиданием провала. 
+                Или вы, наоборот, могли вдохновиться успехами и поверить в себя.</p>
+              <p class="article__text">Как бы то ни было, 
+                первый шаг всегда самый важный. Он показывает, 
+                что мы способны двигаться вперёд, несмотря на сомнения и страхи. 
+                Теперь главное — не останавливаться!</p>
+            </div>
+
+            <footer class="article__footer">
+
+               <!-- Кнопка Like -->
+      <button class="card__like-button" aria-label="Поставить лайк" type="button">
+        <svg class="like-icon" 
+        xmlns="http://www.w3.org/2000/svg" 
+        width="27" 
+        height="24" 
+        fill="none">
+        <path fill="#000" 
+        d="M6 0H3v3h3V0ZM9 0H6v3h3V0ZM3 3H0v3h3V3ZM3 6H0v3h3V6ZM3 9H0v3h3V9ZM12 0H9v3h3V0ZM6 12H3v3h3v-3ZM9 15H6v3h3v-3ZM12 18H9v3h3v-3ZM21 0h3v3h-3V0ZM18 0h3v3h-3V0ZM24 3h3v3h-3V3ZM24 6h3v3h-3V6ZM24 9h3v3h-3V9ZM15 0h3v3h-3V0ZM21 12h3v3h-3v-3ZM18 15h3v3h-3v-3ZM15 18h3v3h-3v-3ZM15 3h-3v3h3V3ZM15 21h-3v3h3v-3Z"/>
+      </svg>
+      </button>
+      <!-- Кнопка  -->
+      <button class="button card__icon-button" type="button">
+        <span class="button__text">Like</span>
+      </button>
+            </footer>
+          </article>
+        </li>
+
+        <li class="card">
+          <article class="article">
+            <header class="article__header">
+              <h2 class="article__title">2 спринт: Погоня за идеалом</h2>
+            </header>
+            <figure class="article__image">
+              <span class="article__image-label" aria-hidden="true">&lt;/wow&gt;</span>
+              <img class="image filter_sepia" 
+              src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExc21xbHZqdWF5bGM3NGp2M2RhMnlzMnltYXpzb2FvYXMxOTdwbmY1MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yCCKXtx0Wkvx2gup0q/giphy.webp" 
+              alt="Симпатичный и очень занятый дракоша">
+               </figure>
+            <div class="article__content">
+              <p class="article__text">Всё это время вы были не одиноки 
+                (хотя, возможно, иногда и чувствовали, что одни против целого мира). Вас окружали одногруппники, команда сопровождения и просто близкие люди, которым можно пожаловаться, если очередной макет просто так не поддавался. 
+                Осваивать что-то новое легче, когда рядом есть единомышленники, не правда ли?</p>
+              <p class="article__text">Теперь, когда первый проект завершен, 
+                важно помнить, что впереди нас ждут новые вызовы и достижения.
+                 Вместе мы сможем справиться с любыми 
+                трудностями и двигаться вперед к новым целям!</p>
+            </div>
+
+            <footer class="article__footer">
+
+               <!-- Кнопка Like -->
+      <button class="card__like-button" aria-label="Поставить лайк" type="button">
+        <svg class="like-icon" 
+        xmlns="http://www.w3.org/2000/svg" 
+        width="27" 
+        height="24" 
+        fill="none">
+        <path fill="#000" 
+        d="M6 0H3v3h3V0ZM9 0H6v3h3V0ZM3 3H0v3h3V3ZM3 6H0v3h3V6ZM3 9H0v3h3V9ZM12 0H9v3h3V0ZM6 12H3v3h3v-3ZM9 15H6v3h3v-3ZM12 18H9v3h3v-3ZM21 0h3v3h-3V0ZM18 0h3v3h-3V0ZM24 3h3v3h-3V3ZM24 6h3v3h-3V6ZM24 9h3v3h-3V9ZM15 0h3v3h-3V0ZM21 12h3v3h-3v-3ZM18 15h3v3h-3v-3ZM15 18h3v3h-3v-3ZM15 3h-3v3h3V3ZM15 21h-3v3h3v-3Z"/>
+      </svg>
+      </button>
+      <!-- Кнопка  -->
+      <button class="button card__icon-button" type="button">
+        <span class="button__text">Like</span>
+      </button>
+            </footer>
+          </article>
+        </li>
+
+        <li class="card">
+          <article class="article">
+            <header class="article__header">
+              <h2 class="article__title">2 спринт: О тех, кто рядом</h2>
+            </header>
+            <figure class="article__image">
+              <span class="article__image-label" aria-hidden="true">&lt;/like&gt;</span>
+              <img class="image filter-contrast" 
+              src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWxweWg1ZGRpbmpxdTZnaHp2MzdhNXZmaWwyOGdkMndsYXlsY2JweCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2tSodgDfwCjIMCBY8h/giphy.webp" 
+              alt="Милый кот общается в социальной сети">
+               </figure>
+            <div class="article__content">
+              <p class="article__text">Всё это время вы были не одиноки 
+                (хотя, возможно, иногда и чувствовали, что одни против целого мира). 
+                Вас окружали одногруппники, команда сопровождения и просто близкие люди,
+                 которым можно пожаловаться, если очередной макет просто так не поддавался. Осваивать что-то новое легче,
+                 когда рядом есть единомышленники, не правда ли?</p>
+              <p class="article__text">Все это время я была 
+                окружена людьми, которые помогали мне двигаться вперед: 
+                одногруппники, команда сопровождения и близкие. 
+                Каждый из них поддерживал меня в моменты сомнений, 
+                когда что-то не получалось. Благодаря их советам и вере в меня я 
+                смогла осваивать новое и не сдаваться, 
+                даже если путь казался слишком сложным.</p>
+            </div>
+
+            <footer class="article__footer">
+
+               <!-- Кнопка Like -->
+      <button class="card__like-button" aria-label="Поставить лайк" type="button">
+        <svg class="like-icon" 
+        xmlns="http://www.w3.org/2000/svg" 
+        width="27" 
+        height="24" 
+        fill="none">
+        <path fill="#000" 
+        d="M6 0H3v3h3V0ZM9 0H6v3h3V0ZM3 3H0v3h3V3ZM3 6H0v3h3V6ZM3 9H0v3h3V9ZM12 0H9v3h3V0ZM6 12H3v3h3v-3ZM9 15H6v3h3v-3ZM12 18H9v3h3v-3ZM21 0h3v3h-3V0ZM18 0h3v3h-3V0ZM24 3h3v3h-3V3ZM24 6h3v3h-3V6ZM24 9h3v3h-3V9ZM15 0h3v3h-3V0ZM21 12h3v3h-3v-3ZM18 15h3v3h-3v-3ZM15 18h3v3h-3v-3ZM15 3h-3v3h3V3ZM15 21h-3v3h3v-3Z"/>
+      </svg>
+      </button>
+      <!-- Кнопка  -->
+      <button class="button card__icon-button" type="button">
+        <span class="button__text">Like</span>
+      </button>
+            </footer>
+          </article>
+        </li>
+
+        <li class="card">
+          <article class="article">
+            <header class="article__header">
+              <h2 class="article__title">3 спринт: Обходные стратегии</h2>
+            </header>
+            <figure class="article__image">
+              <span class="article__image-label" aria-hidden="true">&lt;/adaptation&gt;</span>
+              <img class="image filter-rotate" 
+              src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2V5NG5ldHFhbTY0ZHpnOTF1bjh6aW95NGc3NzNjcTlxZ3c0cXR1ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cCTZUtIWbsBTa/giphy.webp" 
+              alt="Девочка печатает на компьютере">
+               </figure>
+            <div class="article__content">
+              <p class="article__text">На этом курсе вы постоянно решали разные задачи. 
+                В какой-то момент вам могло показаться, что решения просто иссякли. 
+                Значит, пришло время посмотреть на задачу под другим углом.</p>
+              <p class="article__text">Иногда нужно сделать 
+                шаг назад, чтобы лучше понять, что стоит перед вами, и найти 
+                выход. Успех в проекте — это не просто достижение конечной цели,
+                 но и процесс принятия решений, обучения и адаптации.</p>
+            </div>
+
+            <footer class="article__footer">
+
+               <!-- Кнопка Like -->
+      <button class="card__like-button" aria-label="Поставить лайк" type="button">
+        <svg class="like-icon" 
+        xmlns="http://www.w3.org/2000/svg" 
+        width="27" 
+        height="24" 
+        fill="none">
+        <path fill="#000" 
+        d="M6 0H3v3h3V0ZM9 0H6v3h3V0ZM3 3H0v3h3V3ZM3 6H0v3h3V6ZM3 9H0v3h3V9ZM12 0H9v3h3V0ZM6 12H3v3h3v-3ZM9 15H6v3h3v-3ZM12 18H9v3h3v-3ZM21 0h3v3h-3V0ZM18 0h3v3h-3V0ZM24 3h3v3h-3V3ZM24 6h3v3h-3V6ZM24 9h3v3h-3V9ZM15 0h3v3h-3V0ZM21 12h3v3h-3v-3ZM18 15h3v3h-3v-3ZM15 18h3v3h-3v-3ZM15 3h-3v3h3V3ZM15 21h-3v3h3v-3Z"/>
+      </svg>
+      </button>
+      <!-- Кнопка  -->
+      <button class="button card__icon-button" type="button">
+        <span class="button__text">Like</span>
+      </button>
+            </footer>
+          </article>
+        </li>
+
+        <li class="card">
+          <article class="article">
+            <header class="article__header">
+              <h2 class="article__title">3 спринт: Когда опускаются руки</h2>
+            </header>
+            <figure class="article__image">
+              <span class="article__image-label" aria-hidden="true">&lt;/fall&gt;</span>
+              <img class="image filter_multi" 
+              src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2U0aTF3MmE0eGhvaXVrazBqamVzYWZkOW8yamg4NnhhMGJxYjl1ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FZiu84gQ8Hzgaby4zi/giphy.webp" 
+              alt="Креветка в слезах и в безысходности печатает что-то за компьютером.">
+               </figure>
+            <div class="article__content">
+              <p class="article__text">Во время учёбы часто возникает чувство, когда не знаешь, 
+                за что хвататься. Вроде и проектную пора сдавать, и задачи хочется порешать, 
+                и в теории получше разобраться, и жизнь не забыть пожить.
+                 В такие моменты очень нужна концентрация.
+                 Вспомните, откуда вы её черпали.</p>
+              <p class="article__text">Бывали дни, когда одно дело казалось важнее другого,
+                 и приходилось учиться расставлять приоритеты.  Это было сложно, 
+                 и порой опускались руки, но я 
+                 всегда помнила о своей цели и стремилась к ней.</p>
+            </div>
+
+            <footer class="article__footer">
+
+               <!-- Кнопка Like -->
+      <button class="card__like-button" aria-label="Поставить лайк" type="button">
+        <svg class="like-icon" 
+        xmlns="http://www.w3.org/2000/svg" 
+        width="27" 
+        height="24" 
+        fill="none">
+        <path fill="#000" 
+        d="M6 0H3v3h3V0ZM9 0H6v3h3V0ZM3 3H0v3h3V3ZM3 6H0v3h3V6ZM3 9H0v3h3V9ZM12 0H9v3h3V0ZM6 12H3v3h3v-3ZM9 15H6v3h3v-3ZM12 18H9v3h3v-3ZM21 0h3v3h-3V0ZM18 0h3v3h-3V0ZM24 3h3v3h-3V3ZM24 6h3v3h-3V6ZM24 9h3v3h-3V9ZM15 0h3v3h-3V0ZM21 12h3v3h-3v-3ZM18 15h3v3h-3v-3ZM15 18h3v3h-3v-3ZM15 3h-3v3h3V3ZM15 21h-3v3h3v-3Z"/>
+      </svg>
+      </button>
+      <!-- Кнопка  -->
+      <button class="button card__icon-button" type="button">
+        <span class="button__text">Like</span>
+      </button>
+            </footer>
+          </article>
+        </li>
+
+        <li class="card">
+          <article class="article">
+            <header class="article__header">
+              <h2 class="article__title">«Сейчас я здесь»</h2>
+            </header>
+            <figure class="article__image">
+              <span class="article__image-label" aria-hidden="true">&lt;/new&gt;</span>
+              <img class="image filter-saturate" 
+              src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWR4eXFpdHlsdTh0enF5bWQ3YTVidTlycG03eGltZ2diNzB0N2owNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WOU52F4B8H8khsZsNp/giphy.webp" 
+              alt="Котик что-то пишет в блокноте">
+               </figure>
+            <div class="article__content">
+              <p class="article__text">Сейчас вы уже очень много знаете о вёрстке.
+                 Но это только начало. Во-первых, впереди ещё много материала про «красотищу».
+                  Во-вторых, с окончанием курса учёба не заканчивается. Вёрстка — это целый мир.
+                   И этот мир постоянно меняется. Познать его полностью не получится, 
+                   но это тот случай, когда важен сам процесс познания.
+                 Ведь часто путь — и есть результат.</p>
+              <p class="article__text">Бывали моменты, когда казалось, 
+                что руки опускаются, и цель кажется далекой. Но именно в 
+                эти моменты приходит осознание, что каждый шаг приближает 
+                к конечной цели. И даже если путь непрост, каждое усилие приближает к успеху.</p>
+            </div>
+
+            <footer class="article__footer">
+
+               <!-- Кнопка Like -->
+      <button class="card__like-button" aria-label="Поставить лайк" type="button">
+        <svg class="like-icon" 
+        xmlns="http://www.w3.org/2000/svg" 
+        width="27" 
+        height="24" 
+        fill="none">
+        <path fill="#000" 
+        d="M6 0H3v3h3V0ZM9 0H6v3h3V0ZM3 3H0v3h3V3ZM3 6H0v3h3V6ZM3 9H0v3h3V9ZM12 0H9v3h3V0ZM6 12H3v3h3v-3ZM9 15H6v3h3v-3ZM12 18H9v3h3v-3ZM21 0h3v3h-3V0ZM18 0h3v3h-3V0ZM24 3h3v3h-3V3ZM24 6h3v3h-3V6ZM24 9h3v3h-3V9ZM15 0h3v3h-3V0ZM21 12h3v3h-3v-3ZM18 15h3v3h-3v-3ZM15 18h3v3h-3v-3ZM15 3h-3v3h3V3ZM15 21h-3v3h3v-3Z"/>
+      </svg>
+      </button>
+      <!-- Кнопка -->
+      <button class="button card__icon-button" type="button">
+        <span class="button__text">Like</span>
+      </button>
+            </footer>
+          </article>
+        </li>
+      </ul>
+    </main>
+    <footer class="footer" >
+      
+      <button
+        class="button button__save"
+        type="button"
+        onclick="window.modal.showModal();"
+        aria-controls="modal"
+      >
+      <svg class="button__svg" viewBox="0 0 39 39">
+        <use href="./svg/floppy.svg#floppy"></use>
+      </svg>
+      <span class="button__text">Сохранить на память</span>
+    </button>
+
+    <dialog id="modal" class="modal">
+      <div class="info-modal">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 39">
+          <use href="./svg/floppy.svg#floppy"></use>
+        </svg>
+        <p class="modal__text">Вставьте дискету, чтобы продолжить</p>
+      </div>
+      <button 
+        type="button" 
+        class="button modal__button-ok" 
+        onclick="window['modal'].close()">
+        <span class="button__text">ОК</span>          
+      </button>
+    </dialog>
+
+    </footer>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
