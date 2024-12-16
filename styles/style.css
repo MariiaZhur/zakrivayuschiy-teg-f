@@ -36,7 +36,7 @@
   margin-block: 100px;
   border: var(--border, 2px solid black);
   padding-block: var(--padding-block-header);
-  font-family: var(--font-accent-2P, "Courier New", monospace);
+  font-family: var(--font-accent-2P, fantasy, monospace);
   text-transform: uppercase;
   background-color: var(--bg-color, white);
   inline-size: var(--section-inline, clamp(320px, 100%, 700px));
@@ -106,15 +106,15 @@
   right: clamp(0.8125rem, 0.5484rem + 1.1268vw, 1.5625rem);
   z-index: 1;
   opacity: 0.5;
-  font-family: var(--font-accent-2P, "Courier New", monospace);
+  font-family: var(--font-accent-2P, fantasy, monospace);
   font-size: 14px;
   text-transform: uppercase;
   text-shadow: 0 0 1px var(--color-accent, white);
-  -webkit-text-stroke: 1px var(--color-accent, white);
+  /*удалено*/
   mix-blend-mode: hard-light;
 }
 
-@supports (-webkit-text-stroke: 1px var(--color-accent)) {
+@supports (-webkit-text-stroke: 1px var(--color-accent, white)) {
   .article__image-label {
     text-shadow: none;
     -webkit-text-stroke: 1px var(--color-accent, white);
@@ -193,7 +193,7 @@
   position: relative;
   z-index: 10;
   color: var(--color-accent-button, white);
-  font-family: var(--font-accent-2P, "Courier New", monospace);
+  font-family: var(--font-accent-2P, fantasy, monospace);
   font-size: 14px;
   text-align: center;
   transition: 0.3s ease;
@@ -228,7 +228,7 @@
   }
 }
 
-.footer {
+.button__save-history {
   padding-block: 50px 103px;
 }
 
@@ -237,7 +237,7 @@ dialog::backdrop {
 }
 
 .modal {
-  font-family: var(--font-accent-2P, "Courier New", monospace);
+  font-family: var(--font-accent-2P, fantasy, monospace);
   font-size: 14px;
   line-height: 21px;
   text-transform: uppercase;
@@ -271,8 +271,8 @@ dialog::backdrop {
 }
 
 .modal__button-ok {
-  width: clamp(16.0625rem, 15.2702rem + 3.3803vw, 18.3125rem);
   height: 38px;
+  inline-size: 100%;
 }
 /*.modal__text {
   }*/

@@ -24,7 +24,7 @@
 
 .main-body {
   fill: transparent;
-  transition: fill 0.3s linear 0.05s;
+  transition: fill 0.3s linear;
 }
 
 .core {
@@ -37,24 +37,35 @@
 }
 
 /* ховер */
-.like-icon:hover .core,
+.like-icon:hover .core {
+  fill: var(--heart-contur, black);
+  transition-delay: 0s;
+}
+
 .like-icon:hover .main-body {
   fill: var(--heart-contur, black);
+  transition-delay: 0.05s;
 }
 
 /* active */
-.like-icon:active .core,
+.like-icon:active .core {
+  fill: var(--heart-main, red);
+  transition-delay: 0s;
+}
 .like-icon:active .main-body {
   fill: var(--heart-main, red);
+  transition-delay: 0.05s;
 }
 
 /* при клике */
 .like-icon.is-liked .core {
   fill: var(--heart-main, red);
+  transition-delay: 0s;
 }
 
 .like-icon.is-liked .main-body {
   fill: var(--heart-main, red);
+  transition-delay: 0.05s;
 }
 
 .like-icon.is-liked .contour {
