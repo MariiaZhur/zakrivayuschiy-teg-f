@@ -223,7 +223,7 @@
   /* Ширина окна */
   inline-size: clamp(19.375rem, 18.7368rem + 2.723vw, 21.1875rem);
 
-  @media (width <= 550px) {
+  @media (width <= 650px) {
     flex-direction: column;
   }
 }
